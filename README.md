@@ -7,10 +7,11 @@ Dataset used to train the model is Street View House Number dataset. ([SVHN](htt
 Model is trained to detect digits from 0 to 8 but not 9. (Reason: Rotation augmentation is used and 9 is detected as 6). 
 
 Training set used = SVHN Training set +SVHN Extra Training Set
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text | 
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 
 Model SSD -300	Training set = 77% mAP	Test set = 68% mAP approx
 
