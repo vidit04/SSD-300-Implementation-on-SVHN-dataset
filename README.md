@@ -15,7 +15,7 @@ Training set used = SVHN Training set +SVHN Extra Training Set
 
 ![](detect_robot1.png)
 
-![](valid_detect_9.png)
+![](More Result Images/valid_detect_0.png)
 
 ![](More Result Images/valid_detect_1.png)
 
