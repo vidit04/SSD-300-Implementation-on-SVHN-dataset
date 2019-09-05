@@ -31,7 +31,7 @@ The hyper-parameter values used in the program are.
 
 |   Global  Step	 | Learning rate |
 | -------------    |:-------------:|
-|   0 – 2100       | 	    0.001    |
+|    0 – 2100      | 	    0.001    |
 |  2101- 15000	   |     0.0005    |
 |  15001- 20000	   |     0.0001    |
 |  20001- further  |     0.00001   |
