@@ -13,7 +13,7 @@ Training set used = SVHN Training set +SVHN Extra Training Set
 
 ### Some results on Test set:
 
-![alt text](vidit04/SSD-300-Implementation-on-SVHN-dataset/blob/master/detect_robot1.png)
+![](vidit04/SSD-300-Implementation-on-SVHN-dataset/blob/master/detect_robot1.png)
 
 ### To Initiate Training:
 I have used Python 3.6.5 and Tensorflow 1.12.
