@@ -53,7 +53,7 @@ In case train.py break, run train_restore.py. Changes to be done in every restor
 
 - Step 3   **Run detect.py**
 
-•	To check results of training on Test set. Some sample images from Test set can found in folder More_Result_Images in repository.
+•	To check results of training on Test set. Some more sample images from Test set can found in folder More_Result_Images in repository.
 
 - Step 4   **Run detect_robot1.py** 
 
