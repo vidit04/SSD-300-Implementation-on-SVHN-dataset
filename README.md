@@ -24,36 +24,36 @@ I have used Python 3.6.5 and Tensorflow 1.12.
 The Program will take approx 45 min. to download SVHN dataset and start training.
 The hyper-parameter values used in the program are.
 
-•	Batch size = 32
+  •	Batch size = 32
 
-•	Learning rate 
+  •	Learning rate 
 
-|   Global  Step	 | Learning rate |
-| -------------    |:-------------:|
-|    0 – 2100      | 	    0.001    |
-|  2101- 15000	   |     0.0005    |
-|  15001- 20000	   |     0.0001    |
-|  20001- further  |     0.00001   |
+  |   Global  Step	 | Learning rate |
+  | -------------    |:-------------:|
+  |    0 – 2100      | 	    0.001    |
+  |  2101- 15000	   |     0.0005    |
+  |  15001- 20000	   |     0.0001    |
+  |  20001- further  |     0.00001   |
 
-•	Momentum parameter for Momentum optimizer = 0.9
+   •	Momentum parameter for Momentum optimizer = 0.9
 
-•	L2 regularization factor = 0.0005
+   •	L2 regularization factor = 0.0005
 
-•	Probability Threshold  = 0.5
+   •	Probability Threshold  = 0.5
 
-•	Category to be classified by neural network = 9 (digits) + 1 (background) + 4 (location coordinate)=14
+   •	Category to be classified by neural network = 9 (digits) + 1 (background) + 4 (location coordinate)=14
 
 - Step 2     **Run train_restore.py**
 
 In case train.py break, run train_restore.py. Changes to be done in every restore are.
 
-•	Update latest metadata file name to restore program to start training.
+   •	Update latest metadata file name to restore program to start training.
 
-•	And update Step parameter value to continue training. 
+   •	And update Step parameter value to continue training. 
 
 - Step 3   **Run detect.py**
 
-•	To check results of training on Test set.
+   •	To check results of training on Test set.
 
 - Step 4   **Run detect_robot1.py** 
 
@@ -62,7 +62,7 @@ Update latest metadata file name to read text from the image robot1.png.
 
 Check Results:
 
-•	My latest trained model.chkt-final files can downloaded from [google drive link](https://drive.google.com/file/d/1HaXiGvQgyS6ZIJjoNpeU4vIFhJ3Wdne4/view?usp=sharing).
+   •	My latest trained model.chkt-final files can downloaded from [google drive link](https://drive.google.com/file/d/1HaXiGvQgyS6ZIJjoNpeU4vIFhJ3Wdne4/view?usp=sharing).
 
-•	detect_robot1.py  can be run directly to get same results.
+   •	detect_robot1.py  can be run directly to get same results.
 
