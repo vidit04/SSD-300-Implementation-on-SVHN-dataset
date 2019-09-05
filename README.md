@@ -19,13 +19,14 @@ Training set used = SVHN Training set +SVHN Extra Training Set
 
 I have used Python 3.6.5 and Tensorflow 1.12.
 
--Step 1
+- Step 1
 **Run train.py** file
 
 The Program will take approx 45 min. to download SVHN dataset and start training.
 The hyper-parameter values used in the program are.
 
 •	Batch size = 32
+
 •	Learning rate 
 
 |   Global  Step	 | Learning rate |
@@ -43,7 +44,7 @@ The hyper-parameter values used in the program are.
 
 •	Category to be classified by neural network = 9 (digits) + 1 (background) + 4 (location coordinate)=14
 
--Step 2 
+- Step 2 
 **Run train_restore.py**
 
 In case train.py break, run train_restore.py. Changes to be done in every restore are.
