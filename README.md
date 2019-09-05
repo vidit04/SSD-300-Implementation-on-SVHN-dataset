@@ -55,11 +55,13 @@ In case train.py break, run train_restore.py. Changes to be done in every restor
 
 •	To check results of training on Test set.
 
-- Step 4   **Run detect_robot1.py**
+- Step 4   **Run detect_robot1.py** 
 
+To get same result shown in Readme.md file above.
 Update latest metadata file name to read text from the image robot1.png.
 
 Check Results:
+
 •	My latest trained model.chkt-final files can downloaded from [google drive link](https://drive.google.com/file/d/1HaXiGvQgyS6ZIJjoNpeU4vIFhJ3Wdne4/view?usp=sharing).
 
 •	detect_robot1.py  can be run directly to get same results.
