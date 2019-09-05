@@ -46,15 +46,20 @@ The hyper-parameter values used in the program are.
 - Step 2     **Run train_restore.py**
 
 In case train.py break, run train_restore.py. Changes to be done in every restore are.
+
 •	Update latest metadata file name to restore program to start training.
-•	And update step value to continue training. 
--Step 3
+
+•	And update Step parameter value to continue training. 
+
+-Step 3   **Run detect.py**
+
+•	To check results of training on Test set.
 
 -Step 4   **Run detect_robot1.py**
 
 Update latest metadata file name to read text from the image robot1.png.
 
 Check Results:
-•	My latest trained model.chkt-final files attached with mail. 
+•	My latest trained model.chkt-final files can downloaded from [google drive link](https://drive.google.com/file/d/1HaXiGvQgyS6ZIJjoNpeU4vIFhJ3Wdne4/view?usp=sharing) . 
 •	detect_robot1.py  can be run directly to get same results.
 
