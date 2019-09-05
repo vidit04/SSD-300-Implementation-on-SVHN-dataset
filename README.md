@@ -13,7 +13,7 @@ Training set used = SVHN Training set +SVHN Extra Training Set
 
 ### Some results on Test set:
 
-![](master/detect_robot1.png)
+![](detect_robot1.png)
 
 ### To Initiate Training:
 I have used Python 3.6.5 and Tensorflow 1.12.
