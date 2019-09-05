@@ -51,11 +51,11 @@ In case train.py break, run train_restore.py. Changes to be done in every restor
 
 •	And update Step parameter value to continue training. 
 
--Step 3   **Run detect.py**
+- Step 3   **Run detect.py**
 
 •	To check results of training on Test set.
 
--Step 4   **Run detect_robot1.py**
+- Step 4   **Run detect_robot1.py**
 
 Update latest metadata file name to read text from the image robot1.png.
 
