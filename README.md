@@ -1,7 +1,7 @@
 # SSD-300-Implementation-on-SVHN-dataset
-A Brief Overview:
-To solve this test problem, I have used single-shot multi-object detection model (SSD -300) for reading the encoded text and identifying its location in the test image.  SSD model is based on VGG-16 and the approach defined in this paper by Wei Liu.
-Dataset used to train the model is Street View House Number dataset. (SVHN)
+###A Brief Overview:
+To solve this test problem, I have used single-shot multi-object detection model (SSD -300) for reading the encoded text and identifying its location in the test image.  SSD model is based on VGG-16 and the approach defined in this [paper](https://arxiv.org/pdf/1512.02325.pdf) by Wei Liu.
+Dataset used to train the model is Street View House Number dataset. ([SVHN](http://ufldl.stanford.edu/housenumbers/))
 Model is trained to detect digits from 0 to 8 but not 9. (Reason: Rotation augmentation is used and 9 is detected as 6). Training set used = SVHN Training set +SVHN Extra Training Set
 Model SSD -300	Training set = 77% mAP	Test set = 68% mAP approx
 Some results on Test set:
