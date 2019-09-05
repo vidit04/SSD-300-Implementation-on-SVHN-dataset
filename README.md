@@ -10,7 +10,7 @@ Training set used = SVHN Training set +SVHN Extra Training Set
 
 Model SSD -300	Training set = 77% mAP	Test set = 68% mAP approx
 
-Some results on Test set:
+#### Some results on Test set:
     
 Initiate Training:
 I have used Python 3.6.5 and Tensorflow 1.12.
