@@ -19,14 +19,13 @@ Training set used = SVHN Training set +SVHN Extra Training Set
 
 I have used Python 3.6.5 and Tensorflow 1.12.
 
-1. Step 1
--- **Run train.py** file
+-Step 1
+**Run train.py** file
 
 The Program will take approx 45 min. to download SVHN dataset and start training.
 The hyper-parameter values used in the program are.
 
 •	Batch size = 32
-
 •	Learning rate 
 
 |   Global  Step	 | Learning rate |
@@ -37,20 +36,23 @@ The hyper-parameter values used in the program are.
 |  20001- further  |     0.00001   |
 
 •	Momentum parameter for Momentum optimizer = 0.9
+
 •	L2 regularization factor = 0.0005
+
 •	Probability Threshold  = 0.5
+
 •	Category to be classified by neural network = 9 (digits) + 1 (background) + 4 (location coordinate)=14
 
-2. Step 2 
--- **Run train_restore.py**
+-Step 2 
+**Run train_restore.py**
 
 In case train.py break, run train_restore.py. Changes to be done in every restore are.
 •	Update latest metadata file name to restore program to start training.
 •	And update step value to continue training. 
-3. Step 3
+-Step 3
 
-4. Step 4
--- **Run detect_robot1.py**
+-Step 4
+**Run detect_robot1.py**
 
 Update latest metadata file name to read text from the image robot1.png.
 
