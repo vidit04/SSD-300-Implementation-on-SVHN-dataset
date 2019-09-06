@@ -63,7 +63,7 @@ Update latest metadata file name to read text from the image robot1.png.
 
 Check Results:
 
-   •	My latest trained model.chkt-final files can be downloaded from [google drive link](https://drive.google.com/file/d/1YL5jqx4UZJ7IAbmj9cWfHuy2vlYNGLwI/view?usp=sharing).
+   •	My latest trained model.chkt-final files can be downloaded from [google drive link](https://drive.google.com/file/d/1sUSXnf7tfMPNs5Xar6mCfVSV2_fJMRvX/view?usp=sharing).
 
    •	detect_robot1.py  can be run directly to get same results.
 
